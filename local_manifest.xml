@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Replace qcoretechgh with your GitHub username -->
+  <remote name="github_kylessopen" fetch="https://github.com/qcoretechgh/" />
+
+  <project path="device/samsung/kylessopen" name="android_device_samsung_kylessopen" remote="github_kylessopen" revision="cm7.2" />
+  <project path="vendor/samsung/kylessopen" name="proprietary_vendor_samsung_kylessopen" remote="github_kylessopen" revision="cm7.2" />
+  <project path="kernel/samsung/kylessopen" name="android_kernel_samsung_kylessopen" remote="github_kylessopen" revision="cm7.2" />
+</manifest>
